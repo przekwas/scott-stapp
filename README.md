@@ -60,16 +60,19 @@ dist/
 ├─ server.js
 esbuild/
 ├─ client.dev.mjs
+├─ client.prod.mjs
 ├─ server.dev.mjs
+├─ server.prod.mjs
 node_modules/
 public/
 ├─ static/
 │  ├─ bundle.js
+│  ├─ bundle.css
 ├─ index.html
 src/
 ├─ client/
 │  ├─ styles/
-│  │  ├─ app.scss
+│  │  ├─ app.css
 │  ├─ App.tsx
 │  ├─ index.tsx
 │  ├─ tsconfig.json
@@ -82,6 +85,8 @@ package-lock.json
 package.json
 README.md
 tsconfig.json
+tailwind.config.js
+postcss.config.js
 ```
 
 ### Top-Level Overview

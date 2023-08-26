@@ -13,8 +13,8 @@ const App = (props: AppProps) => {
 	}, []);
 
 	return (
-		<div className="mx-auto mt-5 w-25">
-			<div className="alert alert-info text-center">Hello {data}</div>
+		<div className="container">
+			<div className="text-green-700 bg-green-100 border border-green-900">Hello {data}</div>
 		</div>
 	);
 };
